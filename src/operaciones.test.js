@@ -1,6 +1,6 @@
 import {
   sum, sub, mult, div, modulo,
-} from './operaciones.js';
+} from './operaciones';
 
 test('sumar 1050 + 3 + 5 + 5 es igual a 1063', () => {
   expect(sum(sum(1050, 3), sum(5, 5))).toBe(1063);
