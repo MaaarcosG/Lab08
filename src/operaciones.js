@@ -1,31 +1,29 @@
-//funcion la suma
-function sum(a,b){
-    return a+b;
+// funcion la suma
+function sum(a, b) {
+  return a + b;
 }
-export{sum}
+export { sum };
 
-//funcion de resta
-function sub(a,b){
-    return a-b;
+// funcion de resta
+function sub(a, b) {
+  return a - b;
 }
-export{sub}
+export { sub };
 
-//funcion de multiplicacion
-function mult(a,b){
-    return a*b;
+// funcion de multiplicacion
+function mult(a, b) {
+  return a * b;
 }
-export{mult}
+export { mult };
 
-//funcion de division
-function div(a,b){
-    return Math.round(a/b);
+// funcion de division
+function div(a, b) {
+  return Math.round(a / b);
 }
-export{div}
+export { div };
 
-//funcion de mod
-function modulo(a,b){
-    return a%b;
+// funcion de mod
+function modulo(a, b) {
+  return a % b;
 }
-export{modulo}
-
-
+export { modulo };
