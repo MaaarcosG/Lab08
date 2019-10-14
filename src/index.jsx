@@ -106,8 +106,6 @@ class App extends React.Component {
       vArrayIncial = false;
       vInicial = '';
       vInicial += valor;
-    } else {
-      vInicial = '.';
     }
 
     // mandamos los valores
